@@ -1,0 +1,48 @@
+<!Doctype HTML>
+<html>
+    <head>
+        
+        <title>Fun with Bogosort</title>
+        <meta charset="utf-8">
+        <script src="bogo.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+    </head>
+    
+    <body>
+        
+        <div class="content">
+            
+            <div class="info">
+                <h1>Let's Bogosort!<sup><i id="info-open" class="fas fa-info-circle"></i></sup></h1>
+            
+                <h3>Enter a string of numbers with ONLY a space in between each (no commas)</h3>
+                <input type="text" id="user-input" />
+            
+                <div class="buttons">
+                    <button id="go">Let's Bogo</button>
+                    <button id="stop">Stop Bogo-ing</button>
+                </div>
+            </div>
+            
+            <div class="output">
+            
+            </div>
+        
+        </div>
+        
+        <div class="desc hidden">
+            <div class="info">
+                <i id="info-close" class="fas fa-times"></i>
+                <h3>What is Bogo Sort?</h3>
+                <p>
+                    Bogo Sort is sorting algorithm (if it could even be called that). It takes a list of numbers and shuffles them in a random order. Then the algorithm checks the new order for ascending order, if the order is correct the algorithm is finished. However, if the order is incorrect, the list is reshuffled and the process begins again. Because of this, the algorithm tends to be very slow and inefficient.
+                </p>
+            </div>
+        </div>
+        
+    </body>
+    
+</html>
